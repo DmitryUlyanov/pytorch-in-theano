@@ -17,7 +17,7 @@ f_theano = pytorch_wrapper(f_pytorch, dtype=dtype, debug=True)
 And then use `f_theano` in your theano graphs. See `simple_example.py`.
 ## As AIS wrapper on MNIST dataset
 
-0. Train your model on MNIST dataset.
+0. Train your pytoch model on MNIST dataset.
 
 1. Clone this repo with `--recursive` flag:
 ```
