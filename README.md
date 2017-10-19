@@ -14,7 +14,7 @@ As easy as it could be.
 from ops import pytorch_wrapper
 f_theano = pytorch_wrapper(f_pytorch, dtype=dtype, debug=True)
 ```
-And then use `f_theano` in your theano graphs. See `simple_example.py`.
+And then use `f_theano` in your theano graphs. See `simple_example.ipynb`.
 ## As AIS wrapper on MNIST dataset
 
 0. Train your pytoch model on MNIST dataset.
@@ -23,7 +23,7 @@ And then use `f_theano` in your theano graphs. See `simple_example.py`.
 ```
 git clone --recursive https://github.com/DmitryUlyanov/pytorch_in_theano
 ```
-2. See `age.py` for an example how I used it for AGE model on MNIST dataset. You will need to replace `NetWrapper(net)` in `generator(z)` with your network.    
+2. See `AIS.ipynb` for an example how I used it for AGE model on MNIST dataset. You will need to replace `NetWrapper(net)` in `generator(z)` with your network.    
 
 
 If you want to compare your generative model, here are the two likelihood scores I've computed for MNIST with `z_dim=10`:
